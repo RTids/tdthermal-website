@@ -1,42 +1,55 @@
 body {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    gap: 4em;
     margin: 0;
+    width: 100%;
+}
+
+.about-body {
+    background-image: url(/images/Pattern\ Background.png);
+    background-size: cover;
+    background-color: white;
 }
 
 nav {
-    position: absolute;
     display: flex;
-    top: 3vh;
-    right: 2vw;
-    width: 30vw;
-    background-color: rgb(224, 219, 219);
-    border-radius: 30px;
-    justify-content: center;
-    font-size: clamp(.6rem, 2vw, 1rem); 
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
 }
 
 nav > ul {
-    width: 100%;
-    list-style: none;
     display: flex;
-    height: 3vh;
-    justify-content: space-evenly;
+    list-style: none;
     align-items: center;
-    gap: 1vw;
-}
-
-nav > ul > li {
-    width: 100%;
+    font-size: clamp(10px, 3vw, 1.2rem);
+    flex-wrap: wrap;
+    align-self: flex-end;
+    background-color: rgb(77, 79, 78);
+    box-sizing: border-box;
+    padding: .3em 1em;
+    margin-right: 5%;
+    gap: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    color:rgb(245, 242, 242);
+    border: 2px solid rgb(157, 152, 152);
+    box-shadow: -5px 5px 5px rgb(202, 201, 201);
+    
 }
 
 .logo {
     width: 10vw;
-    position: absolute;
-    top: 3vh;
-    left: 2vw;
+    height: 8vh;
+    margin-left: 3vw;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .about-img {
@@ -52,4 +65,12 @@ nav > ul > li {
 
 .about > p {
     color: rgb(109, 105, 105);
+    font-size: clamp(10px, 3vw, 1rem);
+    margin-left: 100px;
+}
+
+.tdthermal-about {
+    border-bottom: 2.5px solid red;
+    text-decoration: underline;
+    text-decoration-color: orangered;
 }

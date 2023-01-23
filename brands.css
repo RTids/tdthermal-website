@@ -1,0 +1,33 @@
+.brands-body {
+        text-align: center;
+        background-image: url(/images/Pattern\ Background.png);
+        background-size: cover;
+        background-color: white;
+}
+
+.brands-h1 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.pixsys {
+    display: flex;
+    justify-content: center;
+}
+
+.pixsys-content {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.brand-img {
+    width: 30vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.brand-p {
+    font-size: clamp(10px, 3vw, 1rem) !important;
+}
