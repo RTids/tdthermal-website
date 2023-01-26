@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='index.css'>
+    <link rel='stylesheet' href='navbar.css'>
+    <link rel='stylesheet' href='products.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500&family=Quicksand&display=swap" rel="stylesheet">
@@ -12,26 +14,28 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images//favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<script type="module" src="./index.js"></script>
-    <title>TD Thermal</title>
+    <title>TD Thermal - Products</title>
 </head>
 
+<nav>
+    <img class='logo' src='/images/tdthermal-logo.png'>
+    <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='products.html'>Products</a></li>
+        <li><a href='brands.html'>Brands</a></li>
+        <li><a>Contact</a></li>
+    </ul>
+</nav>
 
 <body>
 
-    <section class="splash-logo">
-        <img src='./images/logo-hd.png' alt='TD Thermal Logo'>
-    </section>
+    <div id="product-list">
 
-    <nav class="splash-menu">
-        <ul>
-            <li><a href='about.html'>About</a></li>
-            <li><a href='products.html'>Products</a></li>
-            <li><a href='brands.html'>Brands</a></li>
-            <li>Contact</li>
-        </ul>
-    <nav>
+    </div>
 
+    <button id='render'>Render</button>
+    
 </body>
-
+<script type="module" src="./products.js"></script>
 </html>

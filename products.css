@@ -1,0 +1,33 @@
+img {
+    width: 200px;
+    height: 120px;
+}
+
+body {
+    text-align: center;
+    background-image: url(./images/Pattern\ Background.png);
+    background-size: cover;
+}
+
+p {
+    font-size: 12px;
+}
+
+#product-list  a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#product-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+    border: 3px solid black;
+    padding: 2em;
+    margin: 1.2em;
+    border-radius: 5px;
+    width: 90%;
+    background-color: white;
+}

@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    gap: 3em;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: clamp(10px, 3vw, 1.2rem);
+    flex-wrap: wrap;
+    align-self: flex-end;
+    background-color: rgb(77, 79, 78);
+    box-sizing: border-box;
+    padding: .3em 1em;
+    margin-right: 5%;
+    gap: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    color:rgb(245, 242, 242);
+    border: 2px solid rgb(157, 152, 152);
+    box-shadow: -5px 5px 5px rgb(202, 201, 201);
+    
+}
+
+.logo {
+    max-height: 7vh;
+    width: auto;
+    margin-left: 3vw;
+    aspect-ratio: 2.5/1;
+}

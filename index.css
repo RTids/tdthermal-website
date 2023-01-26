@@ -24,8 +24,6 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-image: url(/images/Pattern\ Background.png);
-    background-size: cover;
 }
 
 .splash-menu {
