@@ -30,11 +30,20 @@
 
 <body>
 
+    <div class="search-bar">
+        <form class='search-category' id='radios'>
+
+            <input type="radio" name="category" id="heater" value='heater'>
+            <label for='heater'>Heater</label>
+
+            <input type="radio" name="category" id="coil" value='coil'>
+            <label for='coil'>Coil</label>
+        </form>
+    </div>
+
     <div id="product-list">
 
     </div>
-
-    <button id='render'>Render</button>
     
 </body>
 <script type="module" src="./products.js"></script>

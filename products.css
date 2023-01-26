@@ -10,7 +10,36 @@ body {
 }
 
 p {
-    font-size: 12px;
+    font-size: clamp(10px, 2vw, 1rem);
+}
+
+.search-bar {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: clamp(10px, 2vw, 1rem);
+}
+
+.search-category {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: .4em;
+    color: rgb(0, 0, 0);
+}
+
+.search-category input {
+    display: none;
+}
+
+input:checked + label{
+    color: orange;
+    font-weight: bold;
+}
+
+input:hover + label {
+    cursor: pointer;
 }
 
 #product-list  a {
@@ -30,4 +59,23 @@ p {
     border-radius: 5px;
     width: 90%;
     background-color: white;
+}
+
+.product-tile {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.product-tile:hover {
+    transform: translateY(-10px);
+    border: 2px solid orangered;
+    transition: all .5s ease;
+}
+
+.heater {
+    display: block;
+}
+
+.coil {
+    display: block;
 }

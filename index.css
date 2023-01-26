@@ -70,7 +70,7 @@ body {
 }
 
 
-li:hover {
+nav li:hover {
     animation: moveBG 1s;
     cursor: pointer;
     animation-fill-mode: forwards;
