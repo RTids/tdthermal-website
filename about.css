@@ -1,5 +1,5 @@
 .about-body {
-    background-image: url(/images/Pattern\ Background.png);
+    background-image: url('./images/pattern-background.png');
     background-size: cover;
     background-color: white;
 }

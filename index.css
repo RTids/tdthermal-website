@@ -28,7 +28,7 @@ body {
 
 .splash-menu {
     /* background: linear-gradient(to right, rgb(54, 53, 53),  rgb(101, 100, 100)); */
-    background-image: url(/images/Pipes\ background.png);
+    background-image: url('./images/pipes-background.png');
     background-size: cover;
     width: 30vw;
     height: 100vh;
