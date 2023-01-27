@@ -27,6 +27,12 @@ p {
     padding: 0;
     margin: .4em;
     color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.search-category label {
+    border-left: 2px solid rgba(116, 115, 115, 0.627);
+    padding-left: 4px;
 }
 
 .search-category input {
@@ -36,6 +42,7 @@ p {
 input:checked + label{
     color: orange;
     font-weight: bold;
+    border-color: orangered;
 }
 
 input:hover + label {
@@ -70,16 +77,4 @@ input:hover + label {
     transform: translateY(-10px);
     border: 2px solid orangered;
     transition: all .5s ease;
-}
-
-.search-bar-inner {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 2px solid;
-    font-size: clamp(10px, 2vw, 1rem);
-}
-
-.search-bar-inner input:hover + label {
-    cursor: pointer;
 }
