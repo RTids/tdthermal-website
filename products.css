@@ -72,10 +72,14 @@ input:hover + label {
     transition: all .5s ease;
 }
 
-.heater {
-    display: block;
+.search-bar-inner {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: clamp(10px, 2vw, 1rem);
 }
 
-.coil {
-    display: block;
+.search-bar-inner input:hover + label {
+    cursor: pointer;
 }

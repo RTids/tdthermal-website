@@ -2,12 +2,12 @@ import {products} from './product-data.js'
 
 const radiosEl = document.getElementById('radios')
 
-
 //Listens for what Cateogory button is selected
 radiosEl.addEventListener('change', pullSelectedCategory)
 
 //Pull through products when specific category is selected
 function pullSelectedCategory(){
+    let productHTML = ''
     const selected = document.querySelector("input[type='radio']:checked").value
     const selectedCategoryArray = products.filter(function(product){
         if (product.category === selected){
@@ -16,10 +16,12 @@ function pullSelectedCategory(){
     })
     
     //Produce HTML to render
-    let productHTML = ''
+    
 
     selectedCategoryArray.forEach(function(product) {
-    productHTML += `
+
+    
+        productHTML += `
         <div class='product-tile ${product.category}'>
             <img src='${product.picture}' alt='image of product'>
             <p>${product.name}<p>
