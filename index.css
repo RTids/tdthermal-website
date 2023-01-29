@@ -54,7 +54,7 @@ body {
 
 .splash-logo > img {
     width: 70%;
-    animation: fadeIn ease-in 2.5s;
+    animation: fadeIn ease-in 2.0s;
 }
 
 .splash-menu > ul {
@@ -65,7 +65,7 @@ body {
     margin-left: 6vw;
     letter-spacing: 2px;
     list-style: none;
-    animation: enterRight ease 2.5s;
+    animation: enterRight ease 2s;
     color: rgb(214, 212, 212);
 }
 

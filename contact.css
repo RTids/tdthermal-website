@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background-image: url('./images/pattern-background.png');
+    background-size: cover;
+    border: 1px solid;
+}
+
+.content {
+    height: 50%;
+    width: 50%;
+    max-width: 600px;
+    background-color: rgba(33, 33, 33, 0.703);
+    border-radius: .8em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(237, 236, 236, 0.637);
+    margin-top: 5em;
+    box-shadow: -2px 2px 10px rgba(136, 136, 134, 0.594);
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.contact-wrapper {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: -1em
+}
+
+h1 {
+    margin: 0;
+    margin-top: .3em;
+    margin-bottom: .6em
+}
+
+p {
+    font-size: .9rem;
+    margin: .5em
+}
+
+.contact__info p {
+    font-size: .6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.contact__info {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.contact__detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.contact-wrapper a {
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact__location p {
+    font-size: .7rem;
+    line-height: .5;
+    margin-top: 1em;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+}
+
+.icons, .icons-invisible{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3.5em;
+}
+
+.icons-invisible {
+    color: transparent;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
